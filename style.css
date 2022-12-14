@@ -1,0 +1,25 @@
+.container {
+    margin-inline: auto;
+    max-width: min(80ch, 100vw - 4rem);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
